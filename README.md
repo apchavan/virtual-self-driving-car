@@ -1,5 +1,5 @@
 # Virtual self driving car :car:
-Virtual self driving car with reinforcement learning using Kivy &amp; PyTorch framework.
+Virtual self driving car with reinforcement learning using <a href="https://kivy.org/">Kivy</a> &amp; <a href="https://pytorch.org/">PyTorch</a> frameworks.
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="./output.gif" />
 
