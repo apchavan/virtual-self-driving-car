@@ -10,7 +10,7 @@ The virtual self driving car is a reinforcement learning mini-project developed 
  2. <a href="https://pytorch.org/">PyTorch</a> framework :fire: (used for reinforcement learning). <BR />
 
 * _Each source code file contains comments to explain meaning of that code along with some reference links._ <BR />
-* _Setup instructions also provided in **Instructions.txt** file of project root, so you can follow there if required._ 
+* _Setup instructions below also provided in **Instructions.txt** file of project root, so you can follow there if required._ 
 
 ## Project dependencies setup instructions :hammer_and_wrench::chains:
 It is highly recommended that to create a virtual environment using 'conda' because, there are lot of dependencies which will be installed automatically. <BR />
