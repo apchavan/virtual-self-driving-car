@@ -4,7 +4,7 @@
 
 
 ## About project :information_source:
-Virtual self driving car is a reinforcement learning educational mini-project developed using two awesome frameworks of <a href="https://python.org/">Python</a>:
+Virtual self driving car is an educational reinforcement learning mini-project developed using two awesome frameworks of <a href="https://python.org/">Python</a>:
  1. <a href="https://kivy.org/">Kivy</a> framework :kiwi_fruit: (used for GUI as environment) and <BR />
  2. <a href="https://pytorch.org/">PyTorch</a> framework :fire: (used for reinforcement learning). <BR />
 
