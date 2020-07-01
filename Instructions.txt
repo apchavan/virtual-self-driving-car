@@ -1,0 +1,33 @@
+
+It is highly recommended that to create a virtual environment using 'conda' because, there are lot of dependencies which will be installed automatically.
+
+Project requires two packages mainly along with their dependencies (which will installed automatically with them), also read 'NOTE' sections for each packages:
+
+(1) Kivy (Nightly build):
+    {#} Install command => 
+        pip install --upgrade kivy[base] kivy_examples --pre --extra-index-url https://kivy.org/downloads/simple/
+
+    {#} NOTE :=> 
+        After you installed the 'Kivy' framework using above command, check installed version using command:
+            python -c "import kivy; kivy.__version__; exit(0);"
+        There will be some line such as,
+            "[INFO   ] [Kivy        ] v2.0.0rc3, git-20c14b2, 20200615"
+        Where, 'v2.0.0rc3' means installed version is 2.0.0, similarly check your installed version & update accordingly in first line of "car.kv" file only if program while running gives error related to Kivy.
+
+
+(2) Pytorch (using 'pip' command):
+    {#} NOTE :=> 
+        Make sure to check official PyTorch site & install latest version instead of '1.5.1'or '0.6.1' as below.
+    
+    {#} Install CPU only version (Recommended & used in this project) => 
+        pip install torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+    
+    {#} Install GPU version (No GPU used in this project) => 
+        pip install torch===1.5.1 torchvision===0.6.1 -f https://download.pytorch.org/whl/torch_stable.html
+
+
+
+
+##### RUN PROGRAM #####
+    1> Activate environment containing above packages.
+    2> Enter command := python map.py
