@@ -4,13 +4,13 @@ Virtual self driving car with reinforcement learning using Kivy &amp; PyTorch fr
 <img style="display: block; margin-left: auto; margin-right: auto;" src="./output.gif" />
 
 
-* _Setup instructions also provided in **Instructions.txt** file of project root, so you can follow there if required._ <BR />
-* _Each source code file contains comments to explain meaning of that code along with some reference links._
-
 ## About project :information_source:
 The virtual self driving car is a reinforcement learning mini-project developed using two awesome frameworks of <a href="https://python.org/">Python</a>:
  1. <a href="https://kivy.org/">Kivy</a> framework :kiwi_fruit: (used for GUI as environment) and <BR />
- 2. <a href="https://pytorch.org/">PyTorch</a> framework :fire: (used for reinforcement learning). <BR /><BR />
+ 2. <a href="https://pytorch.org/">PyTorch</a> framework :fire: (used for reinforcement learning). <BR />
+
+* _Each source code file contains comments to explain meaning of that code along with some reference links._ <BR />
+* _Setup instructions also provided in **Instructions.txt** file of project root, so you can follow there if required._ 
 
 ## Project dependencies setup instructions :hammer_and_wrench::chains:
 It is highly recommended that to create a virtual environment using 'conda' because, there are lot of dependencies which will be installed automatically. <BR />
