@@ -1,11 +1,10 @@
 # Virtual self driving car :car:
-Virtual self driving car with reinforcement learning using <a href="https://kivy.org/">Kivy</a> &amp; <a href="https://pytorch.org/">PyTorch</a> frameworks.
 
 <img style="display: block; margin-left: auto; margin-right: auto;" src="./output.gif" />
 
 
 ## About project :information_source:
-The virtual self driving car is a reinforcement learning mini-project developed using two awesome frameworks of <a href="https://python.org/">Python</a>:
+Virtual self driving car is a reinforcement learning mini-project developed using two awesome frameworks of <a href="https://python.org/">Python</a>:
  1. <a href="https://kivy.org/">Kivy</a> framework :kiwi_fruit: (used for GUI as environment) and <BR />
  2. <a href="https://pytorch.org/">PyTorch</a> framework :fire: (used for reinforcement learning). <BR />
 
@@ -31,7 +30,7 @@ Project requires two packages mainly along with their dependencies (which will i
     * _**Install CPU only version (Recommended & used in this project)**_ -> <BR />
     &emsp; `pip install torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.org/whl/torch_stable.html` <BR />
     * _**Install GPU version (No GPU used in this project)**_ -> <BR />
-    &emsp; `pip install torch===1.5.1 torchvision===0.6.1 -f https://download.pytorch.org/whl/torch_stable.html` <BR /><BR />
+    &emsp; `pip install torch===1.5.1 torchvision===0.6.1 -f https://download.pytorch.org/whl/torch_stable.html` <BR />
 
 ## Finally execute :racing_car:
  1. Activate virtual environment containing above package installation in project root.
